@@ -1,0 +1,19 @@
+{
+  "catalog_version": 1,
+  "items": [
+	{"id":"rice_ball","name":"丁香饭团","category":"food","price":6,"icon":"饭","sort_order":10,"effects":{"hunger":25,"energy":0,"mood":2,"friendship_xp":2},"requires_awake":true,"travel_supply_id":""},
+	{"id":"sunshine_milk","name":"野生电奶","category":"food","price":8,"icon":"奶","sort_order":20,"effects":{"hunger":8,"energy":18,"mood":0,"friendship_xp":3},"requires_awake":true,"travel_supply_id":""},
+	{"id":"smile_cookie","name":"开心曲奇","category":"food","price":10,"icon":"笑","sort_order":30,"effects":{"hunger":10,"energy":0,"mood":20,"friendship_xp":4},"requires_awake":true,"travel_supply_id":""},
+	{"id":"picnic_bento","name":"野餐便当","category":"food","price":14,"icon":"便","sort_order":40,"effects":{"hunger":35,"energy":0,"mood":8,"friendship_xp":5},"requires_awake":true,"travel_supply_id":"bento_bonus"},
+	{"id":"energy_drink","name":"充电饮料","category":"recovery","price":12,"icon":"电","sort_order":50,"effects":{"hunger":0,"energy":35,"mood":0,"friendship_xp":4},"requires_awake":true,"travel_supply_id":""},
+	{"id":"joke_book","name":"宣传小册","category":"recovery","price":10,"icon":"梗","sort_order":60,"effects":{"hunger":0,"energy":0,"mood":25,"friendship_xp":4},"requires_awake":true,"travel_supply_id":""},
+	{"id":"study_card","name":"学习卡片","category":"growth","price":18,"icon":"学","sort_order":70,"effects":{"hunger":0,"energy":0,"mood":0,"friendship_xp":10},"requires_awake":false,"travel_supply_id":""},
+	{"id":"growth_notebook","name":"成长手账","category":"growth","price":36,"icon":"记","sort_order":80,"effects":{"hunger":0,"energy":0,"mood":0,"friendship_xp":24},"requires_awake":false,"travel_supply_id":""},
+	{"id":"souvenir_campus_pin","name":"校门纪念徽章","category":"souvenir","price":0,"icon":"校","sort_order":101,"effects":{"hunger":0,"energy":0,"mood":0,"friendship_xp":0},"requires_awake":false,"travel_supply_id":""},
+	{"id":"souvenir_canteen_ticket","name":"食堂小票","category":"souvenir","price":0,"icon":"票","sort_order":102,"effects":{"hunger":0,"energy":0,"mood":0,"friendship_xp":0},"requires_awake":false,"travel_supply_id":""},
+	{"id":"souvenir_library_bookmark","name":"星空书签","category":"souvenir","price":0,"icon":"签","sort_order":103,"effects":{"hunger":0,"energy":0,"mood":0,"friendship_xp":0},"requires_awake":false,"travel_supply_id":""},
+	{"id":"souvenir_river_stone","name":"河畔圆石","category":"souvenir","price":0,"icon":"石","sort_order":104,"effects":{"hunger":0,"energy":0,"mood":0,"friendship_xp":0},"requires_awake":false,"travel_supply_id":""},
+	{"id":"souvenir_star_fragment","name":"流星碎片","category":"souvenir","price":0,"icon":"星","sort_order":105,"effects":{"hunger":0,"energy":0,"mood":0,"friendship_xp":0},"requires_awake":false,"travel_supply_id":""},
+	{"id":"souvenir_shell","name":"海边小贝壳","category":"souvenir","price":0,"icon":"贝","sort_order":106,"effects":{"hunger":0,"energy":0,"mood":0,"friendship_xp":0},"requires_awake":false,"travel_supply_id":""}
+  ]
+}

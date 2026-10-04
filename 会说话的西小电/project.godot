@@ -1,0 +1,47 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="会说话的西小电"
+config/description="竖屏互动宠物、轻量跑酷与旅行养成游戏"
+config/version="1.0.1"
+run/main_scene="res://Scenes/Main.tscn"
+config/features=PackedStringArray("4.6", "Mobile")
+boot_splash/show_image=false
+config/icon="uid://cshafthouipd0"
+config/macos_native_icon="uid://cshafthouipd0"
+config/windows_native_icon="uid://cshafthouipd0"
+
+[audio]
+
+general/ios/session_category=2
+driver/enable_input=true
+
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=1280
+window/size/window_width_override=540
+window/size/window_height_override=960
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true

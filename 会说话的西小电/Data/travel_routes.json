@@ -1,0 +1,7 @@
+{
+  "routes": [
+	{"id":"nearby","name":"附近散步","description":"沿着熟悉的小路走一走。","postcard_count":2,"leg_min_seconds":1200,"leg_max_seconds":2400,"postcard_stars_min":1,"postcard_stars_max":1,"return_stars_min":1,"return_stars_max":3,"return_base_items":1,"return_xp":6,"destinations":["campus_gate","canteen","library"],"sort_order":1},
+	{"id":"city","name":"城市漫游","description":"去河边和热闹的街角看看。","postcard_count":3,"leg_min_seconds":2700,"leg_max_seconds":5400,"postcard_stars_min":2,"postcard_stars_max":3,"return_stars_min":3,"return_stars_max":4,"return_base_items":2,"return_xp":10,"destinations":["library","riverbank","stargazing_hill"],"sort_order":2},
+	{"id":"faraway","name":"远方旅行","description":"带上勇气，去更远的地方探险。","postcard_count":4,"leg_min_seconds":5400,"leg_max_seconds":10800,"postcard_stars_min":4,"postcard_stars_max":5,"return_stars_min":5,"return_stars_max":9,"return_base_items":3,"return_xp":16,"destinations":["riverbank","stargazing_hill","coast"],"sort_order":3}
+  ]
+}

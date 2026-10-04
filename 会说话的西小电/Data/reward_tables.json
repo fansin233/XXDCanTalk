@@ -1,0 +1,17 @@
+{
+  "base_item_drop_probability": 0.35,
+  "souvenir_drop_probability": 0.20,
+  "base_items": [
+	{"id":"rice_ball","weight":50},
+	{"id":"sunshine_milk","weight":30},
+	{"id":"smile_cookie","weight":20}
+  ],
+  "souvenirs_by_destination": {
+	"campus_gate":"souvenir_campus_pin",
+	"canteen":"souvenir_canteen_ticket",
+	"library":"souvenir_library_bookmark",
+	"riverbank":"souvenir_river_stone",
+	"stargazing_hill":"souvenir_star_fragment",
+	"coast":"souvenir_shell"
+  }
+}

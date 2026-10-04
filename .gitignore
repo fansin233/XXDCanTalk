@@ -1,0 +1,14 @@
+# Godot editor and imported resource cache
+**/.godot/
+**/android/
+
+# Local export staging and archived, unused source assets
+/.godot-export-stage*/
+/unused_assets_archive*/
+
+# Local release packages and signing sidecars
+/release/
+
+# Codex workspace metadata
+/.codex/
+

@@ -1,0 +1,22 @@
+{
+  "postcards": [
+	{"id":"campus_gate_01","destination_id":"campus_gate","rarity":"common","text":"校门口的风把我的小纸条吹跑了。追了半条路，顺便捡到一颗闪亮的星星，寄给你！"},
+	{"id":"campus_gate_02","destination_id":"campus_gate","rarity":"common","text":"我在树荫下歇了会儿，发现落叶很像一只小船。下次带上它，试试能不能去远方。"},
+	{"id":"campus_gate_03","destination_id":"campus_gate","rarity":"rare","text":"一阵花瓣雨刚好落在我头顶。我站得笔直，假装这是给旅行家的欢迎仪式。"},
+	{"id":"canteen_01","destination_id":"canteen","rarity":"common","text":"食堂门口好香！我认真研究了今天的菜单，还给你留下一点小点心。"},
+	{"id":"canteen_02","destination_id":"canteen","rarity":"common","text":"排队时认识了一位特别会讲冷笑话的朋友。饭还没吃完，我已经笑饱了。"},
+	{"id":"canteen_03","destination_id":"canteen","rarity":"rare","text":"今天碰上了隐藏菜单！我画了一张歪歪扭扭的美食地图，回来一起研究。"},
+	{"id":"library_01","destination_id":"library","rarity":"common","text":"图书馆台阶晒得暖暖的。我坐下来翻了几页书，差点把自己的影子当成书签。"},
+	{"id":"library_02","destination_id":"library","rarity":"common","text":"找到一本介绍远方的书。里面的山和海都很好看，我悄悄记进了旅行清单。"},
+	{"id":"library_03","destination_id":"library","rarity":"rare","text":"夹在旧书里的星空书签被我发现了。背面写着“愿你每次出发，都带回一个故事”。"},
+	{"id":"riverbank_01","destination_id":"riverbank","rarity":"common","text":"河边的风把烦恼吹得很远。我挑了一块圆石头，它看起来和我的脑袋一样聪明。"},
+	{"id":"riverbank_02","destination_id":"riverbank","rarity":"common","text":"我跟着一片叶子走了好久，它一直顺流往前。虽然没赶上它，但这段路很开心。"},
+	{"id":"riverbank_03","destination_id":"riverbank","rarity":"rare","text":"傍晚的水面忽然变成金色。我把这个瞬间记在名片上，希望你也能看到。"},
+	{"id":"stargazing_hill_01","destination_id":"stargazing_hill","rarity":"common","text":"爬到山坡上才发现，云朵离我还是很远。不过坐在这里休息，连风都轻轻的。"},
+	{"id":"stargazing_hill_02","destination_id":"stargazing_hill","rarity":"common","text":"路上数了好多台阶，最后一段数乱了。我决定给自己颁发“认真出门奖”。"},
+	{"id":"stargazing_hill_03","destination_id":"stargazing_hill","rarity":"rare","text":"今晚有一颗流星划过。我许了一个小愿望：下次寄给你的故事，还能让你笑。"},
+	{"id":"coast_01","destination_id":"coast","rarity":"common","text":"海浪一直追着我的脚跑。我退一步，它也退一步，我们好像发明了一种新游戏。"},
+	{"id":"coast_02","destination_id":"coast","rarity":"common","text":"我找到一枚小贝壳。把它放到耳边，听见的也许是海，也许是河，也许是我肚子叫了。"},
+	{"id":"coast_03","destination_id":"coast","rarity":"rare","text":"日出把河边染成了粉色。我赶紧留下一张名片，这份好心情也一起寄给你。"}
+  ]
+}

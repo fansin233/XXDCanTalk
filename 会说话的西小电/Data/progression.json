@@ -1,0 +1,26 @@
+{
+  "content_version": 1,
+  "welcome_pack": {"stars":12,"items":{"rice_ball":2,"picnic_bento":1}},
+  "rare_base_probability": 0.10,
+  "rare_with_bento_probability": 0.20,
+  "rare_guarantee_after_misses": 7,
+  "collection_rewards": [
+	{"threshold":6,"bundle":{"stars":12,"friendship_xp":0,"items":{"study_card":1}}},
+	{"threshold":12,"bundle":{"stars":18,"friendship_xp":0,"items":{"picnic_bento":1}}},
+	{"threshold":18,"bundle":{"stars":30,"friendship_xp":0,"items":{"growth_notebook":1}}}
+  ],
+  "tutorial_trip": {
+	"route_id":"nearby_tutorial",
+	"min_segment_seconds":45,
+	"max_segment_seconds":75,
+	"postcards":[
+	  {"destination_id":"campus_gate","template_id":"campus_gate_01","bundle":{"stars":1,"friendship_xp":0,"items":{"rice_ball":1}}},
+	  {"destination_id":"canteen","template_id":"canteen_01","bundle":{"stars":1,"friendship_xp":0,"items":{}}}
+	],
+	"return_bundle":{"stars":1,"friendship_xp":4,"items":{}},
+	"return_text":"校门附近也藏着好多小发现，下次走远一点吧！"
+  },
+  "nearby_collection_notice_limit":200,
+  "claimed_mail_history_limit":100,
+  "trip_history_limit":20
+}

@@ -1,0 +1,10 @@
+{
+  "destination_art": {
+	"campus_gate":"res://Assests/Travel/placeholder_campus.svg",
+	"canteen":"res://Assests/Travel/placeholder_canteen.svg",
+	"library":"res://Assests/Travel/placeholder_library.svg",
+	"riverbank":"res://Assests/Travel/placeholder_river.svg",
+	"stargazing_hill":"res://Assests/Travel/placeholder_hill.svg",
+	"coast":"res://Assests/Travel/placeholder_coast.svg"
+  }
+}

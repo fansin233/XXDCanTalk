@@ -1,0 +1,156 @@
+{
+  "animations": [],
+  "bounds_position": [
+    -0.434842020273209,
+    0.226181298494339,
+    -0.374393135309219
+  ],
+  "bounds_size": [
+    0.871805667877197,
+    1.18545961380005,
+    0.708115458488464
+  ],
+  "engine": "4.6.1-stable (official)",
+  "meshes": [
+    {
+      "blend_shapes": [],
+      "path": "Retopo_model_001",
+      "skeleton_path": "",
+      "skin_binds": 0,
+      "surfaces": [
+        {
+          "indices": 680088,
+          "material": {
+            "class": "StandardMaterial3D",
+            "name": "材质",
+            "path": "res://Assests/Model/xixiaodian2.fbx::StandardMaterial3D_l31ru",
+            "transparency": 0
+          },
+          "primitive": 3,
+          "triangles": 226696,
+          "vertices": 134660
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "class": "Node3D",
+      "path": "."
+    },
+    {
+      "class": "MeshInstance3D",
+      "path": "Retopo_model_001"
+    }
+  ],
+  "skeletons": [],
+  "source": "res://Assests/Model/xixiaodian2.fbx",
+  "source_sha256": "60229ec69ebf2f9efaf0692c606118a344b7bec8b132953be783941168513ea9",
+  "inspected_at_utc": "2026-09-29T08:18:19.510Z",
+  "inspection_scope": "Godot 4.6.1 imported scene, inspected without modifying game scenes or project settings. Source DCC contents and mobile behavior remain unverified.",
+  "source_file_bytes": 6713356,
+  "adjacent_texture": {
+    "path": "res://Assests/Model/xxd.png",
+    "width": 4096,
+    "height": 4096,
+    "file_bytes": 6268928,
+    "bound_as_imported_albedo": false,
+    "uv_match_verified": false
+  },
+  "additional_models": [
+    {
+      "source": "res://Assests/Model/XXD.glb",
+      "source_file_bytes": 762396,
+      "nodes": [
+        { "class": "Node3D", "path": "." },
+        { "class": "Node3D", "path": "Xixiaodian" },
+        { "class": "Node3D", "path": "Xixiaodian/Xixiaodian_arm" },
+        { "class": "Skeleton3D", "path": "Xixiaodian/Xixiaodian_arm/Skeleton3D" },
+        { "class": "MeshInstance3D", "path": "Xixiaodian/Xixiaodian_arm/Skeleton3D/Xixiaodian_mesh" }
+      ],
+      "skeletons": [
+        {
+          "path": "Xixiaodian/Xixiaodian_arm/Skeleton3D",
+          "bones": 88,
+          "key_bones": [
+            { "index": 3, "name": "腰" },
+            { "index": 4, "name": "上半身" },
+            { "index": 6, "name": "首" },
+            { "index": 7, "name": "頭" },
+            { "index": 8, "name": "肩.R" },
+            { "index": 9, "name": "腕.R" },
+            { "index": 10, "name": "ひじ.R" },
+            { "index": 11, "name": "手首.R" },
+            { "index": 27, "name": "肩.L" },
+            { "index": 28, "name": "腕.L" },
+            { "index": 29, "name": "ひじ.L" },
+            { "index": 30, "name": "手首.L" },
+            { "index": 48, "name": "足.R" },
+            { "index": 63, "name": "足.L" }
+          ],
+          "skin_bind_count": 88,
+          "skin_bind_bone_index_values": [-1],
+          "skin_bind_names_present": true
+        }
+      ],
+      "meshes": [
+        {
+          "path": "Xixiaodian/Xixiaodian_arm/Skeleton3D/Xixiaodian_mesh",
+          "skeleton_path": "..",
+          "vertices": 12045,
+          "indices": 52266,
+          "triangles": 17422,
+          "skin_bind_count": 88,
+          "bone_indices_and_weights_present": true,
+          "blend_shapes": [],
+          "surfaces": [
+            { "vertices": 1119, "indices": 6447 },
+            { "vertices": 6240, "indices": 31578 },
+            { "vertices": 4588, "indices": 13935 },
+            { "vertices": 98, "indices": 306 }
+          ]
+        }
+      ],
+      "animations": [],
+      "inspection_scope": "Godot 4.6.1 imported scene inspected without changing game scenes. Skeleton hierarchy, named skin binds, weighted mesh arrays, and animation availability checked. Bone-pose skin deformation has not yet been visually verified."
+    }
+  ],
+  "runtime_character": {
+    "source": "res://Assests/Model/xxd2.gltf",
+    "active_in_project": true,
+    "skeleton_bone_count": 88,
+    "mesh": {
+      "surface_count": 4,
+      "vertices": 12045,
+      "triangles": 17422,
+      "skin_bind_count": 88,
+      "bone_indices_and_weights_present": true
+    },
+    "materials": ["tou", "white", "red", "yaodai"],
+    "textures": [
+      { "path": "res://Assests/Model/xxd2_head2.png", "width": 1024, "height": 1024 },
+      { "path": "res://Assests/Model/xxd2_body.png", "width": 1024, "height": 1024 },
+      { "path": "res://Assests/Model/xxd2_red.png", "width": 1, "height": 1 },
+      {
+        "path": "res://Assests/Model/xxd2_贴图.png",
+        "width": 4096,
+        "height": 4096,
+        "godot_import_size_limit": 2048,
+        "vram_compressed": true,
+        "mipmaps": true
+      }
+    ],
+    "animations": [],
+    "blend_shapes": [],
+    "pose_verification": {
+      "idle_shoulder_target_degrees": { "right": 58, "left": -58 },
+      "happy_arms_follow_idle_pose": true,
+      "listening_right_arm_target_degrees": { "shoulder": -58, "elbow": -58 },
+      "tested_in_godot_desktop_main_scene": true,
+      "material_textures_visually_verified": true,
+      "program_bone_pose_visually_verified": true,
+      "mobile_performance_verified": false,
+      "notes": "Procedural shoulder, elbow, and head poses visibly affect the skinned model. Idle and happy keep arms down; listening tilts the head and raises one hand near the ear. These are prototype poses, not authored animation clips."
+    }
+  }
+}
